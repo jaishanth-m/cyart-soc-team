@@ -1,0 +1,51 @@
+IOC LIST
+Date: 19-May-2026
+Analyst: SOC Analyst
+
+========================================
+INDICATORS OF COMPROMISE (IOCs)
+========================================
+
+Source IP Addresses
+-------------------
+192.168.1.10
+192.168.1.12
+
+User Accounts
+-------------
+Administrator
+TestUser
+
+Event IDs
+----------
+4625 - Failed Login Attempt
+4624 - Successful Login
+7045 - New Service Installation
+
+File Names
+----------
+suspicious_process.exe
+unknown_service.exe
+
+Domains
+--------
+malicious.com
+test-malware.local
+
+MITRE ATT&CK Techniques
+-----------------------
+T1110 - Brute Force
+T1059 - Command and Scripting Interpreter
+
+Observed Activities
+-------------------
+Multiple failed login attempts
+Repeated authentication failures
+Potential brute-force attack
+Unauthorized service creation
+
+Status
+------
+Under Monitoring
+
+End of IOC List
